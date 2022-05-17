@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Khaoula Portfolio</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+	<link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
+    <link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+       <!-- Latest compiled and minified CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Latest compiled JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://kit.fontawesome.com/ec5a4080aa.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    
+</head>
+
+<body>
+    
+  
+    <div class="lead">
+        <div id="mynavbar" class="navbar">
+
+            <button class="mobile-menu-close" onclick="myFunction()">
+                <span>Close</span> <i class="fa fa-times" aria-hidden="true"></i>
+            </button>
+
+          <a href="#about">About</a>
+          <a href="#experience">Experience</a>
+          <a href="#education">Education</a>
+          <a href="#projects">Projects</a>
+          <a href="#skills">Skills</a>
+          <a href="#contact">Contact</a>  
+          
+          <span href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+          </span>     
+          
+       </div>
+
+    <!-- End header -->
+
+        <div id="lead-content">
+            <h1>Khaoula Khemiri</h1>
+            <h2>Software Engineer</h2>
+            <a href="./cv-khaoula-khemiri.pdf" class="butt-download" download>Download Resume</a>
+        </div>
+        <!-- End #lead-content -->
+
+        <div id="lead-overlay"></div>
+
+        <div class="lead-down">
+            <span onclick="bottomFunction()">
+                <i class="fa fa-chevron-down" aria-hidden="true"></i>
+            </span>
+        </div>
+        <!-- End #lead-down -->
+    </div>
+    <!-- End #lead -->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h2 class="heading">About Me</h2>
+                </div>
+                <div class="col-md-8">
+                    <p>
+                        My name is Khaoula Khemiri, I graduated in 2019 as a Mechatronics Engineer from  the National School of Engineers of Sousse. Being super passionate about programming .....</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End #about -->
+
+    <div id="experience" >
+        <h2 class="heading">Experience</h2>
+
+        <div class="experience-timeline">
+          <h2>January 2020 – September 2021<i class="fa-solid fa-briefcase"></i></h2> 
+          <div class="work"  >
+             <h3>Design office M3I</h3>
+             <h4>Mechanical design engineer</h4>
+             <p>Ensure the study and design of special machines</p>
+	         <p>Develop, propose and present technical solutions according to customer specifications	</p>
+         </div>  
+       </div>
+
+       <div class="experience-timeline">
+          <h2>January 2019 – September 2019 <i class="fa-solid fa-briefcase"></i></h2>
+          <div class="work"  >
+             <h3>Faculty of Engineering Moncton, Canada</h3>
+             <h4>End of studies' project</h4>
+             <p>Smart and anti-loss suitcase design with foldable computer stand </p>
+          </div>
+      </div>
+   
+    </div>
+    
+    <!-- End #experience -->
+
+    <div id="education">
+	    <h2 class="heading">Education</h2>
+        <div class="education-block">
+            <div class="education-block-block">
+            <div>National School of Engineers of Sousse</div>
+            <span class="education-date">Sept 2016 - Sept 2019</span>
+            </div>
+            <p>Cycle d’ingénierie en génie mécatronique</p>
+            
+        </div>
+        <!-- End .education-block -->
+    </div>
+    <!-- End #education -->
+
+    <div id="projects" class="background-alt">
+        <h2 class="heading">Projects</h2>
+        <div class="container">
+           
+            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+              <!-- Indicators -->
+              <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+              </ol>
+          
+              <!-- Wrapper for slides -->
+              <div class="carousel-inner">
+                <div class="item active ">
+                    <div class="projet" >
+                    <a target="_blank" href="https://prayer-times-app.vercel.app/"><img src="./css/images/prayer1.png"  style="max-width:300px; height: 300px;"></a>
+                  <div class="project-description">
+                    <a target="_blank" href="https://prayer-times-app.vercel.app/"><h3>Prayer times App</h3></a>
+                     <p>ISLAMIC PRAYER TIMES:
+                              -Show the times for the Fajr, Sunset, Dhuhr, Asr, Maghrib and Isha prayers
+
+                            -contains an Ultimate Collection of Hadith of Prophet Muhammad (ﷺ) from Most Accepted and Authentic Hadith books( in different languages)                        </p>
+                     <a target="_blank" href="https://prayer-times-app.vercel.app/"><i class="fa-solid fa-earth-africa fa-2x" ></i></a>
+                     <a target="_blank" href="https://github.com/khaoula-khemiri/PrayerTimes-APP/"><i class="fa-brands fa-github fa-2x" ></i></a>
+                  </div>
+                </div>
+                </div>
+          
+                <div class="item">
+                    <div class="projet" >
+                    <a target="_blank" href="https://converter-app.vercel.app/"><img src="./css/images/conv2.png"  style="max-width:300px; height: 300px;"></a>
+                  <div class="project-description">
+                    <a target="_blank" href="https://converter-app.vercel.app/"><h3>Converter App</h3></a>
+                    <p>Converter-App allows you to carry out a currency conversion operation. The operation of a device converter is very simple. Simply enter a sum of money expressed in one currency and you get the corresponding sum expressed in another currency                        </p>
+                    <a target="_blank" href="https://converter-app.vercel.app/"><i class="fa-solid fa-earth-africa fa-2x" ></i></a>
+                    <a href="https://github.com/khaoula-khemiri/Converter-App" target="_blank"><i class="fa-brands fa-github fa-2x" ></i></a>
+                </div>
+            </div>
+                </div>
+              
+                <div class="item">
+                    <div class="projet" >
+                    <a target="_blank" href="https://project4-weather-app.vercel.app/"><img src="./css/images/weather1.png" style="max-width:300px; height: 300px;"></a>
+                  <div class="project-description">
+                    <a target="_blank" href="https://project4-weather-app.vercel.app/"><h3>Weather App</h3></a>
+                    <p> WeatherApp provides the current temperature in Celsius			    </p>
+                    <a target="_blank" href="https://project4-weather-app.vercel.app/"><i class="fa-solid fa-earth-africa fa-2x" ></i></a>
+                    <a target="_blank" href="https://github.com/khaoula-khemiri/WeatherApp" ><i class="fa-brands fa-github fa-2x" ></i></a>
+                  </div>
+                </div>
+                </div>
+              </div>
+          
+              <!-- Left and right controls -->
+              <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left" ></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right" ></span>
+                <span class="sr-only">Next</span>
+              </a>
+            </div>
+      </div>
+
+      <div class="other-project">
+         <details> 
+            <summary>More projects <i class="fa-solid fa-angles-down"></i></summary>
+
+         <div class="project-info">
+            <a href="https://tik-tak-toe-murex.vercel.app/" target="_blank"><h3>Tik-Tak-Toe App</h3></a>
+              <p>
+             Tik-Tak-Toe is a two-player turn-based thinking game whose goal is to be the first to create an alignment			    
+             </p>
+             <a href="https://tik-tak-toe-murex.vercel.app/" target="_blank"><i class="fa-solid fa-earth-africa fa-2x" ></i></a>
+             <a href="https://github.com/khaoula-khemiri/Tik-Tak-Toe" target="_blank"><i class="fa-brands fa-github fa-2x" ></i></a>
+          </div>
+          
+          <div class="project-info">
+            <a target="_blank" href="https://calculator-app-gamma-two.vercel.app/"><h3>Calculatrice App</h3></a>
+             <p>
+             With the Calculator-App, you can calculate simple functions(addition, subtraction, multiplication and division) in an ergonomic application.
+             </p>
+             <a target="_blank" href="https://calculator-app-gamma-two.vercel.app/"><i class="fa-solid fa-earth-africa fa-2x" ></i></a>
+              <a href="https://github.com/khaoula-khemiri/Calculator-App" target="_blank"><i class="fa-brands fa-github fa-2x" ></i></a>
+          </div>  
+          
+         </details>  
+      </div>
+      <div>
+      <details> 
+        <summary>Blog<i class="fa-solid fa-angles-down"></i></summary>
+        <a target="_blank" href="https://medium.com/@kaoulakhemiri/backend-for-beginners-d6f922d74ca8"><div class="project-info">Backend for beginners(Part1)</div></a>
+        <a target="_blank" href="https://medium.com/@kaoulakhemiri/backend-for-beginners-part2-94a7c7f0bcc9"><div class="project-info">Backend for beginners (Part2)</div></a>
+      </details>
+    </div>
+ </div>
+          
+
+
+  <div id="skills">
+        <h2 class="heading">Skills</h2>
+        <div class="skills-list">
+        <ul>
+		    <li>Html</li>
+		    <li>CSS</li>
+            <li>JavaScript</li>
+            <li>React</li>
+		    <li>Python</li>
+            <li>Java</li>
+            <li>C</li>
+           
+        </ul>
+    </div>
+    </div>
+    <!-- End #skills -->
+
+
+    <!-- contact-form -->
+    <div id="contact">
+        <h2>Get in Touch</h2>
+        <div id="contact-form">
+            <form method="POST" action="https://formspree.io/f/moqrkaje">
+                <input type="hidden" name="_subject" value="Contact request from personal website" />
+                <input type="email" name="_replyto" placeholder="Your email" required>
+                <textarea name="message" placeholder="Your message" required></textarea>
+                <button class="button-send" type="submit" target="_blank">Send</button>
+            </form>
+        </div>
+        <!-- End #contact-form -->
+    </div>
+    <!-- End #contact -->
+
+    <footer>
+        <div class="container">
+            <div class="footer-items">
+                <div class="copy">
+                    <p>
+                        Copyright &copy; <span id="current-year">2022</span> Khaoula khemiri
+                    </p>
+                </div>
+
+                <div class="lead-up">
+                    <span onclick="topFunction()">
+                        <i class="fa fa-chevron-up" aria-hidden="true"></i>
+                    </span>
+              </div>
+
+                <div class="social-items" >
+                    <ul>
+                        <li>
+                            <a href="https://github.com/khaoula-khemiri" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
+                        </li>
+                       
+                        <li>
+                            <a href="https://www.linkedin.com/in/khaoula-khemiri-389b58171/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://www.facebook.com/khaoula.khemiri20/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://twitter.com/KhaoulaKhemiri" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                        </li>
+                        
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- End footer -->
+
+    <script src="app.js"></script>
+    
+</body>
+
+</html>
